@@ -6,7 +6,7 @@
 
 <p> Here is the list of completed problems sorted by difficulty: 
 <ol>
-  <li>[1. Two Sum](https://github.com/cicixgliamici/leetcode/tree/main/1.Two%20Sum)</li>
-  <li>[9.Palindrome Number](https://github.com/cicixgliamici/leetcode/tree/main/9.Palindrome)</li>
+  <li> [1.Two Sum](https://github.com/cicixgliamici/leetcode/tree/main/1.Two%20Sum) </li>
+  <li> [9.Palindrome Number](https://github.com/cicixgliamici/leetcode/tree/main/9.Palindrome) </li>
 </ol>
 </p>
