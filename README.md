@@ -8,10 +8,7 @@ Here is the list of completed problems sorted by difficulty:
 
 <h2> Easy </h2>
 <ol>
-  <li>
-      [1. Two Sum](https://github.com/cicixgliamici/leetcode/tree/main/1.Two%20Sum)
-  <li>
- 
+  
+ [1. Two Sum](https://github.com/cicixgliamici/leetcode/tree/main/1.Two%20Sum)
  [9. Palindrome Number](https://github.com/cicixgliamici/leetcode/tree/main/9.Palindrome)
-
 </ol>
