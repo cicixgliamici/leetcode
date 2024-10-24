@@ -6,5 +6,12 @@ For each question, I will try to use multiple languages, especially C, Python3, 
 
 Here is the list of completed problems sorted by difficulty:
 
-1. [1. Two Sum](https://github.com/cicixgliamici/leetcode/tree/main/1.Two%20Sum)
-2. [9. Palindrome Number](https://github.com/cicixgliamici/leetcode/tree/main/9.Palindrome)
+<h2> Easy </h2>
+<ol>
+  <li>
+      [1. Two Sum](https://github.com/cicixgliamici/leetcode/tree/main/1.Two%20Sum)
+  <li>
+ 
+ [9. Palindrome Number](https://github.com/cicixgliamici/leetcode/tree/main/9.Palindrome)
+
+</ol>
