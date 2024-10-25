@@ -18,4 +18,4 @@ Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwis
 - **Explanation**: Reads 01 from right to left. Therefore it is not a palindrome.
 
 #### Constraints:
-- \(-2^{31} \leq x \leq 2^{31} - 1\)
+- -2,147,483,648 <= `x` <= 2,147,483,647
