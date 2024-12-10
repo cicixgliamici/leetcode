@@ -25,8 +25,8 @@ int lengthOfLongestSubstring(char* s) {
         if (charIndex[currentChar] > start) {               //If the character is already in the current window, move the start
             start = charIndex[currentChar];                 //of the window to the right of its last occurrence
         }
-        charIndex[currentChar] = end+1;                   //Update the last seen position of the current character
-        int windowLength = end - start+1;                 //Calculate the length of the current window
+        charIndex[currentChar] = end+1;                     //Update the last seen position of the current character
+        int windowLength = end - start+1;                   //Calculate the length of the current window
         if (windowLength > maxLength) {                     //Update maxLength if the current window is longer
             maxLength = windowLength;
         }
