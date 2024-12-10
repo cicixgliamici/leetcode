@@ -43,3 +43,67 @@ int lengthOfLongestSubstring(char* s) {
  * The algorithm uses a fixed-size array (`charIndex[128]`) to store the last seen positions of characters.
  * Since the array size is constant (128 for ASCII characters), the space complexity is O(1).
  */ 
+
+/*
+An example in order to make it more clear (especially for myself)
+Input: "abca"
+
+Initialization:
+  - String: "abca"
+  - charIndex[128]: {0, 0, 0, ..., 0} (all initialized to 0)
+  - maxLength = 0
+  - start = 0
+
+Steps through the string:
+
+----------------------------------------------------------------------
+Step 1:
+  - end = 0, currentChar = 'a'
+  - charIndex['a'] = 0 (not in the current window, since start = 0)
+  - Update charIndex['a'] to end + 1 = 1
+  - Calculate window length: end - start + 1 = 0 - 0 + 1 = 1
+  - Update maxLength = max(0, 1) = 1
+
+  Variables after step 1:
+    start = 0, maxLength = 1, charIndex['a'] = 1
+
+----------------------------------------------------------------------
+Step 2:
+  - end = 1, currentChar = 'b'
+  - charIndex['b'] = 0 (not in the current window, since start = 0)
+  - Update charIndex['b'] to end + 1 = 2
+  - Calculate window length: end - start + 1 = 1 - 0 + 1 = 2
+  - Update maxLength = max(1, 2) = 2
+
+  Variables after step 2:
+    start = 0, maxLength = 2, charIndex['b'] = 2
+
+----------------------------------------------------------------------
+Step 3:
+  - end = 2, currentChar = 'c'
+  - charIndex['c'] = 0 (not in the current window, since start = 0)
+  - Update charIndex['c'] to end + 1 = 3
+  - Calculate window length: end - start + 1 = 2 - 0 + 1 = 3
+  - Update maxLength = max(2, 3) = 3
+
+  Variables after step 3:
+    start = 0, maxLength = 3, charIndex['c'] = 3
+
+----------------------------------------------------------------------
+Step 4:
+  - end = 3, currentChar = 'a'
+  - charIndex['a'] = 1 (in the current window, since start = 0)
+  - Move start to charIndex['a'] = 1
+  - Update charIndex['a'] to end + 1 = 4
+  - Calculate window length: end - start + 1 = 3 - 1 + 1 = 3
+  - maxLength remains max(3, 3) = 3
+
+  Variables after step 4:
+    start = 1, maxLength = 3, charIndex['a'] = 4
+
+----------------------------------------------------------------------
+
+Final result:
+  - The length of the longest substring without repeating characters is maxLength = 3.
+  - Substring: "abc"
+*/
