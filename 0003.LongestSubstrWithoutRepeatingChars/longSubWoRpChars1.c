@@ -55,7 +55,6 @@ Initialization:
   - start = 0
 
 Steps through the string:
-
 ----------------------------------------------------------------------
 Step 1:
   - end = 0, currentChar = 'a'
@@ -102,7 +101,6 @@ Step 4:
     start = 1, maxLength = 3, charIndex['a'] = 4
 
 ----------------------------------------------------------------------
-
 Final result:
   - The length of the longest substring without repeating characters is maxLength = 3.
   - Substring: "abc"
