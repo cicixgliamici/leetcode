@@ -8,4 +8,4 @@ For each question, I will try to use multiple languages, especially C, Python3, 
 
 - [1.  Two Sum](https://github.com/cicixgliamici/leetcode/tree/main/0001.TwoSum)
 
-## Easy
+## Medium
