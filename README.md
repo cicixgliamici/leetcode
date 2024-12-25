@@ -2,7 +2,7 @@
 
 Collection of the leetcodes I'm doing with the reasoning that led me to the choices and lots of comments.
 
-For each question, I will try to use multiple languages, especially C, Python3, and Java.
+For each question, I will try to use multiple languages, especially C, Python3, and GO.
 
 ## Easy
 
