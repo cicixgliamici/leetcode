@@ -9,5 +9,5 @@ func removeDuplicates(nums []int) int {
             k++                              //And increment the counter of the unduplicated numbers
         }
     }
-    return k
+    return k                                 //It does not matter what you leave beyond the returned k (hence they are underscores). 
 }
