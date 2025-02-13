@@ -3,6 +3,7 @@
  * If the target is not found, it returns the index where the target should be inserted 
  * to keep the array sorted.
  */
+
 int searchInsert(int* nums, int numsSize, int target) {
     // Define the start and end pointers for binary search
     int left = 0;
