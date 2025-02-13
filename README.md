@@ -1,8 +1,10 @@
-# Leetcode
+# Leetcode 💻🚀
 
-Collection of the leetcodes I'm doing with the reasoning that led me to the choices and lots of comments.
+This repository contains my solutions to various **LeetCode problems**, implemented in multiple programming languages. Each solution is **well-documented** with detailed comments to explain the thought process, algorithm, and complexity analysis.
 
-For each question, I will try to use multiple languages, especially C, Python3, and GO.
+## Lookup Table
+
+In this folder you will find tables and short reports to review the fundamental theory to solve problems effectively
 
 ## Easy
 
@@ -21,3 +23,4 @@ For each question, I will try to use multiple languages, especially C, Python3, 
 
 - [2. Add Two Numbers](Medium/0002.AddTwoNumber)
 - [3. Longest Substring Without Repeating Characters ](Medium/0003.LongestSubstrWithoutRepeatingChars)
+
