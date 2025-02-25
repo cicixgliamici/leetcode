@@ -1,6 +1,8 @@
-public class Solution {
+public class longestPalSubStr {
     public String longestPalindrome(String s) {
-        if (s == null || s.length() < 1) return "";
+        
+        if (s == null || s.length() < 1) 
+            return "";
         int start = 0, end = 0;
         
         // Itera su ogni carattere come potenziale centro
