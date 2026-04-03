@@ -1,0 +1,15 @@
+{
+  "id": 10,
+  "title": "Regular Expression Matching",
+  "slug": "regular-expression-matching",
+  "difficulty": "Hard",
+  "topics": ["string", "dynamic-programming", "recursion"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "cpp", "python"],
+  "implementation_counts": {
+    "c": 1,
+    "cpp": 1,
+    "python": 1
+  }
+}

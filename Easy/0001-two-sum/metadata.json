@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "title": "Two Sum",
+  "slug": "two-sum",
+  "difficulty": "Easy",
+  "topics": ["array", "hash-table"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "cpp", "java", "ocaml", "python"],
+  "implementation_counts": {
+    "c": 2,
+    "cpp": 2,
+    "java": 1,
+    "ocaml": 2,
+    "python": 1
+  }
+}

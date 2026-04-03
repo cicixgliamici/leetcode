@@ -1,0 +1,18 @@
+{
+  "id": 9,
+  "title": "Palindrome Number",
+  "slug": "palindrome-number",
+  "difficulty": "Easy",
+  "topics": ["math"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "cpp", "java", "ocaml", "python", "scala"],
+  "implementation_counts": {
+    "c": 1,
+    "cpp": 2,
+    "java": 1,
+    "ocaml": 2,
+    "python": 1,
+    "scala": 2
+  }
+}
