@@ -1,19 +1,19 @@
-import pandas as pd
+"""
+LeetCode 2877 - Create a DataFrame from List
 
-def createDataframe(student_data: list[list[int]]) -> pd.DataFrame:
-    """
-    LeetCode 2877 - Create a DataFrame from List
-
-    student_data is a 2D list like:
+student_data is a 2D list like:
         [[1, 15],
          [2, 11],
          [3, 13]]
 
-    We must return a pandas DataFrame with columns:
-        student_id, age
+We must return a pandas DataFrame with columns:
+    student_id, age
     preserving the row order.
-    """
+"""
 
+import pandas as pd
+
+def createDataframe(student_data: list[list[int]]) -> pd.DataFrame:
     # In pandas, a DataFrame is a 2D table-like structure (like an Excel sheet):
     # - rows = records
     # - columns = named fields
