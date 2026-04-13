@@ -6,12 +6,13 @@
   "topics": ["array", "hash-table"],
   "source": "leetcode",
   "status": "done",
-  "languages": ["c", "cpp", "java", "ocaml", "python"],
+  "languages": ["c", "cpp", "java", "lean", "ocaml", "python"],
   "implementation_counts": {
     "c": 2,
     "cpp": 2,
     "java": 1,
     "ocaml": 2,
-    "python": 1
+    "python": 1,
+    "lean" : 1
   }
 }
