@@ -1,3 +1,6 @@
+import "strings"
+
+
 func lengthOfLastWord(s string) int {
 	// Trim trailing spaces to handle cases where there are spaces at the end
 	s = strings.TrimRight(s, " ")

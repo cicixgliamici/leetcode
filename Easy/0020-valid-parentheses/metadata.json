@@ -1,0 +1,14 @@
+{
+  "id": 20,
+  "title": "Valid Parentheses",
+  "slug": "valid-parentheses",
+  "difficulty": "Easy",
+  "topics": ["string", "stack"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "python"],
+  "implementation_counts": {
+    "c": 1,
+    "python": 1
+  }
+}

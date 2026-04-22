@@ -1,0 +1,14 @@
+{
+  "id": 27,
+  "title": "Remove Element",
+  "slug": "remove-element",
+  "difficulty": "Easy",
+  "topics": ["array", "two-pointers"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["go", "python"],
+  "implementation_counts": {
+    "go": 1,
+    "python": 1
+  }
+}

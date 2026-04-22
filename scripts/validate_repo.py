@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +40,7 @@ def main():
         print("Repository issues found:\n")
         for err in errors:
             print(f"- {err}")
+        sys.exit(1)
     else:
         print("Repository structure is valid.")
 

@@ -1,32 +1,48 @@
-# Leetcode 💻🚀
+# LeetCode Solutions
 
-This repository contains my solutions to various **LeetCode problems**, implemented in multiple programming languages. Each solution is **well-documented** with detailed comments to explain the thought process, algorithm, and complexity analysis.
+This repository collects LeetCode practice solutions in multiple languages, plus a few adjacent study tracks and reference notes.
 
-## Lookup Table
+The main archive lives in the difficulty folders:
 
-In this folder you will find tables and short reports to review the fundamental theory to solve problems effectively
+- `Easy`
+- `Medium`
+- `Hard`
 
-## Easy
+Additional folders currently contain supporting material:
 
-- [1.  Two Sum](Easy/0001.TwoSum)
-- [9.  Palindrome Number](Easy/0009.Palindrome)
-- [13. Roman to Integer](Easy/0013.RomanToInteger)
-- [14. Longest Common Prefix](Easy/0014.LongestCommonPrefix)
-- [20. Valid Parentheses](Easy/0020.ValidParentheses)
-- [21. Merge Two Sorted Lists](Easy/0021.Merge2SrtdLists)
-- [26. Remove Duplicates from Sorted Array](Easy/0026.RmvDupSortedArray)
-- [27. Remove Element](Easy/0027.RemoveElement)
-- [28. Find the Index of the First Occurrence in a String](Easy/0028.FindTheIndex)
-- [35. Search Insert Position](Easy/0035.SearchInsertPosition)
-- [58. Length of Last World](Easy/0058.LengthOfLastWorld)
+- `30DaysOfJavascript`: JavaScript practice track solutions
+- `IntroductionToPandas`: pandas practice exercises
+- `Lookup Table`: short reference notes for common data structures and algorithms
+- `quest`: older exercises and topic-based practice that do not yet follow the main archive format
 
-## Medium
+## Current Status
 
-- [2. Add Two Numbers](Medium/0002.AddTwoNumber)
-- [3. Longest Substring Without Repeating Characters ](Medium/0003.LongestSubstrWithoutRepeatingChars)
-- [5. Longest Palindromic Substring](Medium/0005.LongestPalindromicSubstring)
-- [6. Zigzag Conversion](Medium/0006.ZigzagConversion)
+The repository is being normalized toward a single structure for all problems under `Easy`, `Medium`, and `Hard`.
 
-## Hard
+The intended standard for each problem directory is:
 
-- [4. Median of 2 Sorted Arrays](Hard/0004.Medianof2SortedArrays)
+- `metadata.json` with searchable structured metadata
+- `README.md` with the problem statement, approach, and complexity notes
+- one or more language-specific implementations
+
+Some problems already follow this format, while others still need metadata and per-problem documentation.
+
+## Repository Tooling
+
+The `scripts` folder contains lightweight maintenance tools:
+
+- `python scripts/validate_repo.py`: validate the expected structure for the main archive
+- `python scripts/generate_readme.py`: generate `PROBLEMS.md` from available metadata
+- `python scripts/stats.py`: print aggregate repository statistics from metadata
+
+## Review Notes
+
+This repository is currently being prepared for review in small, quality-focused passes.
+
+In this first pass, the repo-level structure and conventions are being cleaned up before backfilling every problem directory.
+
+## Next Milestones
+
+- bring every `Easy` / `Medium` / `Hard` problem up to the standard structure
+- generate and keep `PROBLEMS.md` in sync with metadata
+- keep validation green in CI

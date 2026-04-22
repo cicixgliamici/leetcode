@@ -1,0 +1,14 @@
+{
+  "id": 66,
+  "title": "Plus One",
+  "slug": "plus-one",
+  "difficulty": "Easy",
+  "topics": ["array", "math"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["java", "python"],
+  "implementation_counts": {
+    "java": 1,
+    "python": 1
+  }
+}

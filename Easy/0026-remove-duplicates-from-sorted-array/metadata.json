@@ -1,0 +1,14 @@
+{
+  "id": 26,
+  "title": "Remove Duplicates from Sorted Array",
+  "slug": "remove-duplicates-from-sorted-array",
+  "difficulty": "Easy",
+  "topics": ["array", "two-pointers"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "go"],
+  "implementation_counts": {
+    "c": 1,
+    "go": 1
+  }
+}

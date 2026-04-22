@@ -7,10 +7,10 @@ class Solution:
         total = 0
         i = 0
         while i < len(s):
-            if i+1 < len(s) and roman_values[s[i]] < roman_values[s[i+1]]:
-                total += roman_values[s[i+1]] - roman_values[s[i]]
-                i+ 2
+            if i + 1 < len(s) and roman_values[s[i]] < roman_values[s[i + 1]]:
+                total += roman_values[s[i + 1]] - roman_values[s[i]]
+                i += 2
             else:
                 total += roman_values[s[i]]
-                i+=1
+                i += 1
         return total

@@ -5,7 +5,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-README_PATH = ROOT / "README.md"
+README_PATH = ROOT / "PROBLEMS.md"
 
 
 def load_metadata():
@@ -37,9 +37,9 @@ def build_readme(items):
     total = len(items)
 
     lines = []
-    lines.append("# LeetCode 💻🚀")
+    lines.append("# LeetCode Solutions")
     lines.append("")
-    lines.append("This repository contains my LeetCode solutions in multiple programming languages.")
+    lines.append("This file is generated from the available metadata in the main archive.")
     lines.append("")
     lines.append("## Progress")
     lines.append("")

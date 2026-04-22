@@ -1,0 +1,14 @@
+{
+  "id": 28,
+  "title": "Find the Index of the First Occurrence in a String",
+  "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+  "difficulty": "Easy",
+  "topics": ["string", "two-pointers"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["go", "python"],
+  "implementation_counts": {
+    "go": 1,
+    "python": 1
+  }
+}

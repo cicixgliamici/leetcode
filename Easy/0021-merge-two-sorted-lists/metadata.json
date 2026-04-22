@@ -1,0 +1,14 @@
+{
+  "id": 21,
+  "title": "Merge Two Sorted Lists",
+  "slug": "merge-two-sorted-lists",
+  "difficulty": "Easy",
+  "topics": ["linked-list", "recursion"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "go"],
+  "implementation_counts": {
+    "c": 1,
+    "go": 1
+  }
+}

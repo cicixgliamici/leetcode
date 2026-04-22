@@ -1,0 +1,14 @@
+{
+  "id": 58,
+  "title": "Length of Last Word",
+  "slug": "length-of-last-word",
+  "difficulty": "Easy",
+  "topics": ["string"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["go", "python"],
+  "implementation_counts": {
+    "go": 1,
+    "python": 1
+  }
+}

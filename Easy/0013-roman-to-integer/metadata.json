@@ -1,0 +1,15 @@
+{
+  "id": 13,
+  "title": "Roman to Integer",
+  "slug": "roman-to-integer",
+  "difficulty": "Easy",
+  "topics": ["hash-table", "math", "string"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "java", "python"],
+  "implementation_counts": {
+    "c": 1,
+    "java": 1,
+    "python": 1
+  }
+}

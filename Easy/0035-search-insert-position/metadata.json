@@ -1,0 +1,14 @@
+{
+  "id": 35,
+  "title": "Search Insert Position",
+  "slug": "search-insert-position",
+  "difficulty": "Easy",
+  "topics": ["array", "binary-search"],
+  "source": "leetcode",
+  "status": "done",
+  "languages": ["c", "python"],
+  "implementation_counts": {
+    "c": 1,
+    "python": 1
+  }
+}
